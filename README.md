@@ -8,4 +8,6 @@ final associada essa base de dados será referida como dataset Cientificidade, d
 questão: **“Justifique a cientificidade da Psicologia.”**.
 
 ### Detalhes das bases de dados
-As 
+O primeiro tipo de dados está contido no arquivo `resumos.txt`, que é um simples arquivo de texto que contém um resumo por linha.
+
+O segundo tipo de dados está contido nos arquivos `preprocessado.csv` e `preprocessado_sem_stopwords.csv`, sendo que no primeiro arquivo estão contidas as questões na íntegra e no segundo arquivo estão as questões após a remoção das *stopwords* contidas no arquivo `stopwords.txt`. Ambos os arquivos estão no formato csv. Sendo que a primeira linha é um cabeçalho e em cada linha seguinte temos a resposta seguida da nota atribuída pelo avaliador. A nota está em uma escala de 0 à 10. Os dois arquivos foram pré processados utilizando o script contido no arquivo `preprocess.ipynb` e a lista de *stopwords*.
