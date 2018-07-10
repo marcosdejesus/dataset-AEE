@@ -11,3 +11,7 @@ questão: **“Justifique a cientificidade da Psicologia.”**.
 O primeiro tipo de dados está contido no arquivo `resumos.txt`, que é um simples arquivo de texto que contém um resumo por linha.
 
 O segundo tipo de dados está contido nos arquivos `preprocessado.csv` e `preprocessado_sem_stopwords.csv`, sendo que no primeiro arquivo estão contidas as questões na íntegra e no segundo arquivo estão as questões após a remoção das *stopwords* contidas no arquivo `stopwords.txt`. Ambos os arquivos estão no formato csv. Sendo que a primeira linha é um cabeçalho e em cada linha seguinte temos a resposta seguida da nota atribuída pelo avaliador. A nota está em uma escala de 0 à 10. Os dois arquivos foram pré processados utilizando o script contido no arquivo `preprocess.ipynb` e a lista de *stopwords*.
+
+### Origem do Banco de Dados
+
+Este banco de dados foi originado dos experimentos realizados no Trabalho de Conclusão de Curso intitulado "Processamento de Linguagem Natural na Avaliação Automática de Respostas Abertas", realizado pelos alunos do curso de Engenharia da Computação da Universidade Federal de Goiás(UFG), Danillo Lobo Ferraz e Marcos Antônio de Jesus Filho, orientados pelo Professor Weber Martins, PhD, da Escola de Engenharia Mecânica, Elétrica e de Computação da UFG. 
